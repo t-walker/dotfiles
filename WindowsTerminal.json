@@ -1,0 +1,84 @@
+
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+
+    "profiles":
+    [
+        {
+            // Make changes here to the powershell.exe profile
+            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "name": "Windows PowerShell",
+            "commandline": "powershell.exe",
+            "colorScheme": "Espresso",
+            "hidden": false
+        },
+        {
+            // Make changes here to the cmd.exe profile
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "name": "cmd",
+            "commandline": "cmd.exe",
+            "hidden": true
+        },
+        {
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "hidden": true,
+            "name": "Azure Cloud Shell",
+            "source": "Windows.Terminal.Azure"
+        }
+    ],
+
+    // Add custom color schemes to this array
+    "schemes": [
+        {
+            "name": "Espresso",
+            "black": "#353535",
+            "red": "#d25252",
+            "green": "#a5c261",
+            "yellow": "#ffc66d",
+            "blue": "#6c99bb",
+            "purple": "#d197d9",
+            "cyan": "#bed6ff",
+            "white": "#eeeeec",
+            "brightBlack": "#535353",
+            "brightRed": "#f00c0c",
+            "brightGreen": "#c2e075",
+            "brightYellow": "#e1e48b",
+            "brightBlue": "#8ab7d9",
+            "brightPurple": "#efb5f7",
+            "brightCyan": "#dcf4ff",
+            "brightWhite": "#ffffff",
+            "background": "#323232",
+            "foreground": "#ffffff"
+        },
+        {
+            "name": "Scarlet Protocol",
+            "black": "#101116",
+            "red": "#ff0051",
+            "green": "#00dc84",
+            "yellow": "#faf945",
+            "blue": "#0271b6",
+            "purple": "#ca30c7",
+            "cyan": "#00c5c7",
+            "white": "#c7c7c7",
+            "brightBlack": "#686868",
+            "brightRed": "#ff6e67",
+            "brightGreen": "#5ffa68",
+            "brightYellow": "#fffc67",
+            "brightBlue": "#6871ff",
+            "brightPurple": "#bd35ec",
+            "brightCyan": "#60fdff",
+            "brightWhite": "#ffffff",
+            "background": "#1c153d",
+            "foreground": "#e41951"
+        }
+    ],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": []
+}
